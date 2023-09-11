@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-10T23:22:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>baoguli</name></author><entry><title type="html">Who owns the copyright for an AI generated creative work?</title><link href="http://localhost:4000/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="Who owns the copyright for an AI generated creative work?" /><published>2021-04-20T00:00:00+08:00</published><updated>2021-04-20T00:00:00+08:00</updated><id>http://localhost:4000/AI-and-intellectual-property</id><content type="html" xml:base="http://localhost:4000/AI-and-intellectual-property.html"><![CDATA[<p>Recently I was <a href="https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/">reading an article</a> about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-11T12:35:48+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>baoguli</name></author><entry><title type="html">Who owns the copyright for an AI generated creative work?</title><link href="http://localhost:4000/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="Who owns the copyright for an AI generated creative work?" /><published>2021-04-20T00:00:00+08:00</published><updated>2021-04-20T00:00:00+08:00</updated><id>http://localhost:4000/AI-and-intellectual-property</id><content type="html" xml:base="http://localhost:4000/AI-and-intellectual-property.html"><![CDATA[<p>Recently I was <a href="https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/">reading an article</a> about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tjzOzuKQhSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -29,7 +29,299 @@
 <tweet>Perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living.</tweet>
 
 <p><img src="./assets/img/posts/20210420/post8-rembrandt2.jpg" alt="The next Rembrandt" />
-<small><a href="https://www.jwt.com/en/work/thenextrembrandt">The Next Rembrandt</a> is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.</small></p>]]></content><author><name>Armando Maynez</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html"><![CDATA[As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?]]></summary></entry><entry><title type="html">So, what is a neural network?</title><link href="http://localhost:4000/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a neural network?" /><published>2021-04-02T00:00:00+08:00</published><updated>2021-04-02T00:00:00+08:00</updated><id>http://localhost:4000/back-to-basics</id><content type="html" xml:base="http://localhost:4000/back-to-basics.html"><![CDATA[<p>The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:</p>
+<small><a href="https://www.jwt.com/en/work/thenextrembrandt">The Next Rembrandt</a> is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.</small></p>]]></content><author><name>Armando Maynez</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html"><![CDATA[As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?]]></summary></entry><entry><title type="html">std::ranges</title><link href="http://localhost:4000/ranges.html" rel="alternate" type="text/html" title="std::ranges" /><published>2021-04-20T00:00:00+08:00</published><updated>2021-04-20T00:00:00+08:00</updated><id>http://localhost:4000/ranges</id><content type="html" xml:base="http://localhost:4000/ranges.html"><![CDATA[<p>如果你想要对一个 vector<int> v 进行排序，你可能会这么写：</int></p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">};</span>
+    <span class="c1">// 指定 begin() 和 end() 迭代器</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+    <span class="c1">// 遍历结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>但是在 ranges 库的支持下，可以直接使用容器或者其他 ranges 作为参数，无需指定 begin() 和 end() 迭代器：</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">};</span>
+    <span class="c1">// 可以直接接受容器作为参数</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">ranges</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
+    <span class="c1">// 遍历结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>如果你想要对一个 vector<int> v 进行过滤和映射，你可能会这么写：</int></p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">};</span>
+    <span class="c1">// 定义一个过滤奇数的谓词</span>
+    <span class="k">auto</span> <span class="n">is_even</span> <span class="o">=</span> <span class="p">[](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">;</span> <span class="p">};</span>
+    <span class="c1">// 定义一个求平方的函数</span>
+    <span class="k">auto</span> <span class="n">square</span> <span class="o">=</span> <span class="p">[](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">;</span> <span class="p">};</span>
+    <span class="c1">// 定义一个存储结果的容器</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">result</span><span class="p">;</span>
+    <span class="c1">// 使用函数对象或者 lambda 表达式</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">copy_if</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">back_inserter</span><span class="p">(</span><span class="n">result</span><span class="p">),</span> <span class="n">is_even</span><span class="p">);</span> <span class="c1">// 过滤奇数</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">transform</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">result</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">result</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">square</span><span class="p">);</span> <span class="c1">// 求平方</span>
+    <span class="c1">// 遍历结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">result</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>这样使用函数对象或者 lambda 表达式来传递策略或者谓词，不仅会导致代码冗长或者重复，而且使用额外的容器或者变量来存储中间结果或者最终结果，会增加内存开销和性能损失。</p>
+
+<p>然而使用 range 适配器可以简化和复用策略或者谓词：</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">};</span>
+    <span class="c1">// 定义一个过滤奇数的谓词</span>
+    <span class="k">auto</span> <span class="n">is_even</span> <span class="o">=</span> <span class="p">[](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">;</span> <span class="p">};</span>
+    <span class="c1">// 定义一个求平方的函数</span>
+    <span class="k">auto</span> <span class="n">square</span> <span class="o">=</span> <span class="p">[](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">;</span> <span class="p">};</span>
+    <span class="c1">// 使用管道符号组合 range 适配器</span>
+    <span class="k">auto</span> <span class="n">result</span> <span class="o">=</span> <span class="n">v</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">filter</span><span class="p">(</span><span class="n">is_even</span><span class="p">)</span> <span class="c1">// 过滤奇数</span>
+                    <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">transform</span><span class="p">(</span><span class="n">square</span><span class="p">);</span> <span class="c1">// 求平方</span>
+    <span class="c1">// 遍历结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">result</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>在上面的例子中，我们不需要定义一个 result 容器来存储过滤和映射后的结果，而是直接使用一个 view 对象来表示，这样就节省了空间，并且只在遍历时才计算结果。</p>
+
+<h3 id="什么是-ranges">什么是 ranges</h3>
+
+<p>std::ranges 是 C++20 中引入的一个新的库，它是对算法和迭代器库的扩展和泛化，使它们更加强大，更容易组合，更不容易出错。</p>
+
+<p>从上面的例子我们可以知道，ranges 库的特点主要包括以下几个方面：</p>
+
+<ul>
+  <li>
+    <p>ranges 库可以直接接受容器或者其他 ranges 作为参数，无需指定 begin() 和 end() 迭代器，这样做更加简洁和直观，也避免了一些潜在的错误和异常。</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>ranges 库可以使用 range 适配器来简化和复用策略或者谓词，例如 views::filter, views::transform 等。range 适配器可以使用管道符号（</td>
+          <td>）进行组合，形成更复杂的表达式，这样做更加可读和可维护，也减少了代码的冗余和重复。</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>ranges 库可以使用 range views 来实现惰性求值（lazy evaluation），只在需要时计算结果，并且不会修改原始数据。这样做可以减少内存开销和中间结果的计算，也可以实现无限序列的表示和操作。</li>
+</ul>
+
+<h3 id="ranges-中的概念">ranges 中的概念</h3>
+
+<p>std::ranges 库中定义了一些概念（concepts），用于描述 ranges 的特性和要求。概念（concepts）是 C++20 中引入的三大特性 ( concepts/coroutine/module ) 之一，用于约束模板参数的类型。</p>
+
+<h4 id="range">range</h4>
+
+<p>一段可以用 [begin,end) 表示的范围。</p>
+
+<h4 id="view">view</h4>
+
+<p>view 概念是 std::ranges 库中定义的一个重要概念，它描述了一种特殊的 range，具有适合用于构建 range 适配器管道的语义属性。</p>
+
+<p>一个类型 T 满足 view 概念的要求，当且仅当它具有以下特征：</p>
+
+<ul>
+  <li>T 是 range；</li>
+  <li>T 是可移动的（movable），即可以调用其移动构造函数和移动赋值运算符。</li>
+</ul>
+
+<p>view 概念是其他 ranges 库中概念的基础，可以用 std::ranges::view<T> 来检查一个类型是否满足 view 概念。</T></p>
+
+<p>view 类型通常具有以下特点：</p>
+
+<ul>
+  <li>view 类型是轻量级的，它们不拥有它们所表示的序列的元素，而是通过间接方式访问它们。</li>
+  <li>view 类型是延迟求值的，它们不会在创建时计算它们所表示的序列的元素，而是在迭代时计算它们。</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>view 类型是可组合的，它们可以通过 range 适配器或管道符号（</td>
+          <td>）进行组合，形成更复杂的表达式。</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>下面是一个简单的例子，展示了如何使用 view 概念：</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">};</span>
+    <span class="c1">// v 是一个 range，但不是一个 view</span>
+    <span class="k">static_assert</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ranges</span><span class="o">::</span><span class="n">range</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">&gt;</span><span class="p">);</span>
+    <span class="k">static_assert</span><span class="p">(</span><span class="o">!</span><span class="n">std</span><span class="o">::</span><span class="n">ranges</span><span class="o">::</span><span class="n">view</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">&gt;</span><span class="p">);</span>
+
+    <span class="c1">// 可以用 views::all 获得 v 的 view</span>
+    <span class="k">auto</span> <span class="n">v1</span> <span class="o">=</span> <span class="n">v</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">all</span><span class="p">;</span>
+    <span class="c1">// v1 是一个 view</span>
+    <span class="k">static_assert</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ranges</span><span class="o">::</span><span class="n">view</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span><span class="o">&gt;</span><span class="p">);</span>
+
+    <span class="c1">// 可以用 views::filter 和 views::transform 对 v1 进行组合</span>
+    <span class="k">auto</span> <span class="n">v2</span> <span class="o">=</span> <span class="n">v1</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">filter</span><span class="p">([](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">;</span> <span class="p">})</span>
+                  <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">transform</span><span class="p">([](</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">;</span> <span class="p">});</span>
+    <span class="c1">// v2 也是一个 view</span>
+    <span class="k">static_assert</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ranges</span><span class="o">::</span><span class="n">view</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="n">v2</span><span class="p">)</span><span class="o">&gt;</span><span class="p">);</span>
+
+    <span class="c1">// 可以用 for-range 循环遍历 v2 中的元素</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">v2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>输出：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4 16 
+</code></pre></div></div>
+
+<h4 id="range-adaptor">range adaptor</h4>
+
+<p>range 的适配器是一种用于创建和修改 view 的函数，它们可以将一个 range 或者一个 view 转换为另一个 view，实现对序列的变换和操作。</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ranges 的适配器通过重载运算符管道运算符（</td>
+      <td>），使得它们可以接受一个 range 或者一个 view 作为左操作数，返回一个新的 view 作为右操作数，提高了代码的可读性和可维护性。</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="惰性求值">惰性求值</h3>
+
+<p>ranges 库中的算法是惰性的，是指它们不会在调用时立即对 ranges 进行求值，而是在需要时才计算结果。这样做的好处是可以减少内存开销和中间结果的计算，也可以实现无限序列的表示和操作。</p>
+
+<p>惰性求值（lazy evaluation）是一种编程技术，它将表达式的求值推迟到真正需要它们的时候。惰性求值可以避免不必要的计算，提高程序的性能和效率。</p>
+
+<p>惰性求值与及早求值（eager evaluation）相对，及早求值是另一种编程技术，它将表达式的求值立即进行，不管是否需要它们。及早求值可以避免重复计算，提高程序的稳定性和可预测性。</p>
+
+<p>以下是一些使用 ranges 库实现无限序列的例子：</p>
+
+<ul>
+  <li>生成一个从 0 开始的自然数序列，并且打印前 10 个元素：</li>
+</ul>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">// 使用 std::views::iota 创建一个从 0 开始的自然数序列</span>
+    <span class="k">auto</span> <span class="n">natural_numbers</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">iota</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="c1">// 使用 std::views::take 取前 10 个元素</span>
+    <span class="k">auto</span> <span class="n">first_ten</span> <span class="o">=</span> <span class="n">natural_numbers</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">take</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+    <span class="c1">// 遍历并打印结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">first_ten</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>输出：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 1 2 3 4 5 6 7 8 9 
+</code></pre></div></div>
+
+<ul>
+  <li>生成一个由字符 ‘a’ 组成的无限序列，并且打印前 5 个元素：</li>
+</ul>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">// 使用 std::views::repeat 创建一个由字符 'a' 组成的无限序列</span>
+    <span class="k">auto</span> <span class="n">a_sequence</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">repeat</span><span class="p">(</span><span class="sc">'a'</span><span class="p">);</span>
+    <span class="c1">// 使用 std::views::take 取前 5 个元素</span>
+    <span class="k">auto</span> <span class="n">first_five</span> <span class="o">=</span> <span class="n">a_sequence</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">take</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+    <span class="c1">// 遍历并打印结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">char</span> <span class="n">c</span> <span class="o">:</span> <span class="n">first_five</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">c</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>输出：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a a a a a 
+</code></pre></div></div>
+
+<ul>
+  <li>生成一个由字符串 “Hello” 循环组成的无限序列，并且打印前 3 次循环：</li>
+</ul>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;ranges&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">// 使用 std::views::single 创建一个只包含字符串 "Hello" 的序列</span>
+    <span class="k">auto</span> <span class="n">hello_sequence</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">single</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">{</span><span class="s">"Hello"</span><span class="p">});</span>
+    <span class="c1">// 使用 std::views::cycle 将该序列循环无限次</span>
+    <span class="k">auto</span> <span class="n">hello_cycle</span> <span class="o">=</span> <span class="n">hello_sequence</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">cycle</span><span class="p">;</span>
+    <span class="c1">// 使用 std::views::take 取前 3 次循环</span>
+    <span class="k">auto</span> <span class="n">first_three</span> <span class="o">=</span> <span class="n">hello_cycle</span> <span class="o">|</span> <span class="n">std</span><span class="o">::</span><span class="n">views</span><span class="o">::</span><span class="n">take</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+    <span class="c1">// 遍历并打印结果</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="n">s</span> <span class="o">:</span> <span class="n">first_three</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">s</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>输出：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello Hello Hello 
+</code></pre></div></div>]]></content><author><name>Armando Maynez</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html"><![CDATA[如果你想要对一个 vector v 进行排序，你可能会这么写：]]></summary></entry><entry><title type="html">So, what is a neural network?</title><link href="http://localhost:4000/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a neural network?" /><published>2021-04-02T00:00:00+08:00</published><updated>2021-04-02T00:00:00+08:00</updated><id>http://localhost:4000/back-to-basics</id><content type="html" xml:base="http://localhost:4000/back-to-basics.html"><![CDATA[<p>The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:</p>
 <ul>
   <li><a href="https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew">This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.</a></li>
   <li><a href="https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/">How A.I.-powered companies dodged the worst damage from COVID</a></li>
